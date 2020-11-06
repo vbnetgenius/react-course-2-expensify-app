@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListItem with fixture 1`] = `
+<div>
+  <h1>
+    خرج و مخارج منزل
+  </h1>
+  <p>
+    155000
+     : 
+    87634435
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</div>
+`;

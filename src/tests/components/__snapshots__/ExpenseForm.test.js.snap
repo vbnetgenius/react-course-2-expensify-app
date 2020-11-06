@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render form with error message 1`] = `
+<div>
+  <p>
+    Please fill out form fields
+  </p>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      name="description"
+      onChange={[Function]}
+      placeholder="Description"
+      type="text"
+    />
+    <input
+      name="amount"
+      onChange={[Function]}
+      placeholder="Amount"
+      type="text"
+    />
+    <textarea
+      cols="30"
+      name="note"
+      onChange={[Function]}
+      rows="10"
+    />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>
+`;

@@ -1,0 +1,32 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.is-active {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
